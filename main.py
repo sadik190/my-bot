@@ -3,7 +3,7 @@ from telebot import types
 import json
 import os
 
-TOKEN = '8162416828:AAFXmg9rE2uDbQb5BKrpp08a7hh4yN04kYk'
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 7300105507
 CHANNEL_USERNAME = "hgnicedkwinofficialchannel"
 PROOF_CHANNEL = "paymentbotproof"
